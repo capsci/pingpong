@@ -1,1 +1,4 @@
-UI : http://codepen.io/2ne/pen/osvpj
+IPhone like UI :
+	http://codepen.io/2ne/pen/osvpj
+Scroll messages window to bottom:
+	http://stackoverflow.com/questions/10503606/scroll-to-bottom-of-div-on-page-load-jquery

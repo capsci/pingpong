@@ -33,6 +33,7 @@ function display(message, from)
     newmessage.className += "message from";
   }
   messageconsole.appendChild(newmessage);
+  $('#message-console').scrollTop($('#message-console')[0].scrollHeight);
 }
 
 $(document).ready(function() {

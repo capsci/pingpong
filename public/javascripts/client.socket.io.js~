@@ -21,7 +21,7 @@ server.on('ss-confirmation', function(data) {
 function display(message, from)
 {
   var newmessage = document.createElement('div');
-  var messagecontent = document.createTextNode(from + ' : ' + message);
+  var messagecontent = document.createTextNode(message);
   var messageconsole = document.getElementById('message-console');
   newmessage.appendChild(messagecontent);
   if(from == "client")
@@ -33,6 +33,7 @@ function display(message, from)
     newmessage.className += "message from";
   }
   messageconsole.appendChild(newmessage);
+  $('#div1').scrollTop($('#div1')[0].scrollHeight);
 }
 
 $(document).ready(function() {
