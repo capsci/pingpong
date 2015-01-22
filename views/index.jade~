@@ -1,6 +1,0 @@
-extends layout
-
-block content
-
-block scripts
-  script(src='/javascripts/ping-pong-console.js')
